@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  phone-list-be:
+    build: ./phone-list-be
+    ports:
+      - 5001:5001
+    volumes:
+      - ./phone-list-be:/app
+    env_file:
+      - .env
+
+  phone-list-fe:
+    build: ./phone-list-fe
+    ports:
+      - 5002:4000
+    volumes:
+      - ./phone-list-fe:/app

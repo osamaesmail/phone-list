@@ -1,0 +1,6 @@
+[submodule "phone-list-fe"]
+	path = phone-list-fe
+	url = https://github.com/osamaesmail/phone-list-fe.git
+[submodule "phone-list-be"]
+	path = phone-list-be
+	url = https://github.com/osamaesmail/phone-list-be.git
