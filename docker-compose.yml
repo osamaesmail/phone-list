@@ -13,9 +13,10 @@ services:
   phone-list-fe:
     build: ./phone-list-fe
     ports:
-      - 5002:4000
+      - 5002:8080
     volumes:
       - ./phone-list-fe:/app
+      - /app/node_modules
     working_dir: /app
     command: yarn dev
     stdin_open: true
