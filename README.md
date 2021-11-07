@@ -1,4 +1,8 @@
-# phone-list-
+# phone-list
+
+## demos
+* Swagger http://3.144.227.37:5001/swagger/index.html
+* UI http://3.144.227.37:5002/
 
 ## submodules `README.md`
 * backend https://github.com/osamaesmail/phone-list-be.git
