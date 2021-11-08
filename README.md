@@ -13,7 +13,7 @@
 * docker-compose
 
 ## Run using docker
-* run `./init`
+* run `./init.sh`
 * run `docker-compose up -d`
 * open http://localhost:5001/swagger/index.html for swagger docs
 * open http://localhost:5002 for UI
